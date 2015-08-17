@@ -18,7 +18,8 @@ enum GridObject {
 }
 
 class Grid {
-
+    // Note that arrays are accessed from outer to inner:
+    // https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html
     var gridLayout: [[GridObject]] = []
     
     var gridWidth: Int = 0
